@@ -1,7 +1,9 @@
-## Introduction:
-Hi, I am Dhitosh Roy, full stack webdeveloper passionate about creating intuitive and engaging web development.
+ ## 👤 Name:Dhitosh Roy
 
-## Features:
+## 📍 Location: Kolkata
 
-## Live link :
-https://dhitoshroy.github.io/codesoft/
+## 🎓 Occupation/Interests: Developer
+
+## 📝 About Me: Web development enthusiast with a passion for coding and design. Always learning and exploring new technologies to create engaging and functional websites.
+
+
