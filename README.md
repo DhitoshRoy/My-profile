@@ -2,7 +2,7 @@
 
 # 📍 Location: Kolkata
 
-# 🎓 Occupation/Interests: Developer
+# 🎓 Occupation/Interests: Webdevelopment
 
 # 📝 About Me: Web development enthusiast with a passion for coding and design. Always learning and exploring new technologies to create engaging and functional websites.
 
