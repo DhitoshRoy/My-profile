@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio of Dhitosh Roy</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- https://fontawesome.com/kits/1ae3f92d49/setup -->
+    <script src="https://kit.fontawesome.com/1ae3f92d49.js" crossorigin="anonymous"></script>
+
+    
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <!-- <li> <a href="#service">service</a></li> -->
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-user-xmark"onclick="closemenu()"></i>
+                
+                </ul>
+
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+
+            </nav>
+
+            <div class="header-text">
+                <p> <b>Web development</b></p>
+                <h1> Hi, This is <span>Dhitosh Roy</span> <br>  from kolkata.</h1>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- ------------------------About----------------------- -->
+
+    <div id="about">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="about-col-1">
+                    <img src="images/DhitoshRoy.jpg">
+                    
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me </h1>
+                    <p>My name is Dhitosh Roy. Currently, I work as a sr. operations associate at <a href="https://www.infiflex.com/" target="_blank">Infiflex Technologies Pvt. Ltd</a>,
+                        <br> where I manages billing processes for Google, Microsoft, AWS, and Azure. <br>I have done graduation with a degree in Geography (H) from <a href="https://www.bangabasi.ac.in/" target="_blank">Bangabasi college</a>.
+
+                    <div class="tab-titles">
+
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                        <p class="tab-links" onclick="opentab('education')" > Education</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+
+                        <ul>
+
+                            <li><span>HTML, CSS, Javascript</span><br> HTML, CSS, and JavaScript work together to create web pages</li>
+                            <li><span>Python</span><br>Python is a versatile programming language known for its simplicity and readability.  </li>
+                            <li><span>React js</span><br>React.js is a popular JavaScript library for building user interfaces,
+                                 particularly for single-page applications. </li>
+                            <li><span>Git</span><br>Git is a distributed version control system that allows multiple developers to collaborate on projects,
+                                 tracking changes to code over time</li>
+                            
+                           
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+
+                        <ul>
+
+                            <li>
+                                <span>Sr.operations associate at <a href="https://www.infiflex.com/" target="_blank">Infiflex Technologies Pvt. Ltd</a>
+                                </span><br>As a Sr. Operations Associate, manages billing processes for Google, Microsoft, AWS, and Azure.
+                                 This includes overseeing invoicing, tracking usage, optimizing costs, managing vendor relationships, and ensuring compliance with billing agreements.
+                            </li>
+                    
+                           
+                        </ul>
+
+                        <ul>
+
+                            <li><span>Senior E-commerce Executive at <a href="https://www.conneqtcorp.com/" target="_blank">
+                            Conneqt Business Solutions</a></span><br>It was an E-commerce base platform, working as as an executive.
+                            </li>
+                    
+                           
+                        </ul>
+
+                        <ul>
+
+                            <li><span>Back Office Executive at <a href="https://twistnturns.in/" target="_blank">
+                                Twist N Turns</a></span><br>I worked there as as admin (Back Office executive) profile.
+                            </li>
+                    
+                           
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-contents" id="education">
+
+                        <ul>
+
+                            <li><span>Graduation</span><br>I have done graduation in Geography(H) from <a href="https://www.bangabasi.ac.in/" target="_blank">Bangabasi college </a>( 2014 to 2018)</li>
+                            <li><span>Higher Secondary</span><br>I have done Highersecondary from <a href="https://school.banglarshiksha.gov.in/ws/website/index/19051001804" target="_blank">Balurghat High School</a>(2011 to 2013)</li>
+                            <li><span>Higher Secondary</span><br>I have done Secondary from <a href="https://school.banglarshiksha.gov.in/ws/website/index/19050605503" target="_blank">BAUL PARAMESWAR HIGH SCHOOL</a></li>
+                           
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- --------------------------------services---------------------------------
+
+    <div id="service">
+
+
+        <div class="container">
+
+            <h1 class="sub-title">My service </h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptate totam. 
+                        Exercitationem minima rem maxime natus 
+                        quos delectus soluta non impedit? Fuga aut 
+                        dignissimos voluptates repellat nesciunt aliquam magnam molestias.</p>
+
+                        <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-web-awesome"></i>
+                    <h2>web design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptate totam. 
+                        Exercitationem minima rem maxime natus 
+                        quos delectus soluta non impedit? Fuga aut 
+                        dignissimos voluptates repellat nesciunt aliquam magnam molestias.</p>
+                        
+                        <a href="#">Learn more</a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div> -->
+
+    <!-- --------------------------------------portfolio----------------------------------- -->
+
+    <div id="portfolio">
+
+        <div class="container">
+            <h1 class="sub-title"> My work </h1>
+            <div class="worklist">
+
+                <div class="work">
+                    <img src="images/work1.jpg">
+                        <div class="layer">
+                            <h3>social media</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nemo sed 
+                                quaerat illum recusandae temporibus cupiditate
+                                deserunt voluptates voluptate alias! Ipsam at modi temporibus ducimus reiciendis rem, 
+                                impedit laudantium dignissimos.</p>
+                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work2.jpg">
+                    <div class="layer">
+                        <h3>link din</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nemo sed 
+                            quaerat illum recusandae temporibus cupiditate
+                            deserunt voluptates voluptate alias! Ipsam at modi temporibus ducimus reiciendis rem, 
+                            impedit laudantium dignissimos.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+            
+                </div>
+
+            </div>
+
+            <a href="https://github.com/DhitoshRoy"class="btn" target="_blank">See more</a>
+        </div>
+    </div>
+
+    <!-- ------------------------------contact------------------------------------------ -->
+
+    <div id="contact">
+        
+        <div class="container">
+            <div class="row">
+
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-regular fa-paper-plane"><a href= " mailto:name@email.com"> roydhitosh@gmail.com</a></i></p>
+                    <p><i class="fa-solid fa-phone"></i>+91-9933713179 </p>
+
+                    <div class="social-icons">
+                        <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://twitter.com/RoyDhitosh"target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://youtube.com/" target="_blank"><i class="fa-brands fa-square-youtube"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+
+                    <a href="images/Dhitosh Roy.pdf" Download class="btn btn-2"> Download CV </a>
+
+                </div>
+                
+                <!-- <div class="conact-right">s    
+
+                    <form s>
+
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email "required>
+                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn-2"> Submit</button>
+
+
+                    </form>
+
+                    <a href="#"></a>
+                </div> -->
+            </div>    
+        
+        </div>
+
+        <div class="copyright">
+
+            <p> Copyright &#169 made by <i class="fa-solid fa-heart"></i> Dhitsh Roy</p>
+        </div>
+
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+
+        function opentab(tabname){
+
+            for(tablink of tablinks ) {
+
+                tablink.classList.remove("active-link")
+            }
+
+            for(tabcontent of tabcontents ) {
+
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+
+        }
+        
+    </script>
+
+</body>
+</html>
